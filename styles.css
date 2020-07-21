@@ -13,7 +13,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--Very-Dark-Blue);
+  background-image: url("/images/bg-desktop.png");
+  background-position: right bottom;
+  background-size: 100% 350px;
+  background-repeat: no-repeat;
 }
+
 
 .menu,
 .storage {
