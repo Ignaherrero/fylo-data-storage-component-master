@@ -40,7 +40,8 @@ html {
   width: 80%;
   border: 5px white;
   /* visibility: visible; */
-  border-radius: 3px;
+  border-radius: 15px;
+
   position: relative;
   left: 30px;
 }
@@ -51,11 +52,12 @@ html {
   width: 200px;
   height: 80px;
   font-size: 2em;
-  bottom: 10px;
+  bottom: 40px;
   color: var(--Very-Dark-Blue);
   background-color: var(--Pale-Blue);
   font-size: 1em;
   border-radius: 10px;
+  border: 4px solid var(--Very-Dark-Blue)
 }
 
 .space span {
@@ -83,9 +85,76 @@ ul {
 }
 
 .attribution {
-  position: absolute;
-  bottom: 30px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: 1.2em;
 }
+
+.link {
+  display: inline-block;
+  padding: .3em;
+  background-color: var(--Light-Grayish-Blue)
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: underline;
+}
+
+.link:link {
+  background: white;
+  color: blue;
+  border-radius: 5px;
+}
+
+.link:visited {
+  color: blue;
+}
+
+.link:hover {
+  background: coral;
+  color: white;
+  border-radius: 5px;
+}
+
+.link:active {
+  transform: scale(.9);
+}
+
+.info {
+  display: inline-block;
+}
+
+.initial {
+  position: absolute;
+  left: 0px;
+}
+
+.max-capacity {
+  position: absolute;
+  left: 400px;
+}
+
+.bar {
+  width: 80%;
+  background-image: linear-gradient(to right, #ffa097, #fa4c91);
+  border-radius: 15px;
+}
+
+/* .bar span {
+  background-color: white;
+  display: inline-block;
+  height: 2px;
+
+  position: absolute;
+  left: -10px;
+} */
 
 li {
   display: inline-block;
