@@ -15,7 +15,7 @@ html {
   background-color: var(--Very-Dark-Blue);
   background-image: url("/images/bg-desktop.png");
   background-position: right bottom;
-  background-size: 100% 350px;
+  background-size: 100% 55.64%;
   background-repeat: no-repeat;
 }
 
@@ -24,6 +24,7 @@ html {
 .storage {
   background-color: var(--Dark-Blue);
 }
+
 
 .menu {
   border-radius: 8px 100px 8px 8px;
@@ -45,8 +46,9 @@ html {
 }
 
 .progress {
-  background-color: var(--Very-Dark-Blue);
-  width: 80%;
+  background-color: hsl(230, 55%, 18%);
+  width: 455px;
+  height: 20px;
   border: 5px white;
   /* visibility: visible; */
   border-radius: 15px;
@@ -64,18 +66,17 @@ html {
   background-color: var(--Pale-Blue);
   font-size: 1em;
   border-radius: 10px;
-  /* border: 4px solid var(--Very-Dark-Blue) */
+
 }
 
 .space span {
   font-size: 2em;
+
 }
 
 .space p {
-  position: absolute;
-  top: 25%;
-  left: 20%;
-  margin: 0;
+  display: inline-block;
+  width: 100%;
   text-align: center;
 }
 
@@ -113,8 +114,8 @@ ul {
 
 .link {
   display: inline-block;
-  padding: .3em;
-  background-color: var(--Light-Grayish-Blue)
+  background-color: var(--Light-Grayish-Blue);
+  height: 46px;
 }
 
 .link:link,
@@ -128,7 +129,7 @@ ul {
 }
 
 .link:link {
-  background: white;
+  background: var(--Very-Dark-Blue);
   color: blue;
   border-radius: 5px;
 }
@@ -160,29 +161,40 @@ ul {
 
 .max-capacity {
   position: absolute;
-  left: 359px;
+  left: 390px;
 }
 
 .bar {
-  width: 80%;
+  width: 340px;
   background-image: linear-gradient(to right, #ffa097, #fa4c91);
   border-radius: 15px;
+  height: 14px;
+  position: relative;
+  top: 3px;
+  left: 3px;
 }
 
-/* .bar span {
+.bar span {
+  position: relative;
+  bottom: 3px;
+  left: 327px;
   background-color: white;
   display: inline-block;
-  height: 2px;
-
-  position: absolute;
-  left: -10px;
-} */
+  height: 10px;
+  width: 10px;
+  border-radius: 10px
+}
 
 li {
   display: inline-block;
-  margin-right: 10px;
 }
 
 li:first-child {
-  margin-left: 20px;
+  /* margin-left: 20px; */
+}
+
+.link svg {
+  width: 46px;
+  height: 46px;
+
 }
