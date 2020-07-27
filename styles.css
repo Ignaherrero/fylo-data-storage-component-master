@@ -15,7 +15,7 @@ html {
   justify-content: center;
   background-color: var(--Very-Dark-Blue);
   background-image: url("/images/bg-desktop.png");
-  background-position: right bottom;
+  background-position: left bottom;
   background-size: 100% 55.64%;
   background-repeat: no-repeat;
 }
