@@ -14,7 +14,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: var(--Very-Dark-Blue);
-  background-image: url("/images/bg-desktop.png");
+  background-image: url("/assets/bg-desktop.png");
   background-position: left bottom;
   background-size: 100% 55.64%;
   background-repeat: no-repeat;
