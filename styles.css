@@ -140,11 +140,22 @@ img {
   right: 0px;
   width: 180px;
   height: 70px;
-  bottom: 60px;
+  bottom: 65px;
   color: var(--Very-Dark-Blue);
   background-color: hsl(0, 0%, 100%);
   font-size: 1em;
   border-radius: 10px;
+}
+
+.space::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: white;
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 
 .space p {
@@ -156,7 +167,7 @@ img {
 }
 
 .space span {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 3em;
 }
 
@@ -185,6 +196,7 @@ img {
 .max-capacity {
   position: absolute;
   top: 10px;
+  font-weight: 700;
 }
 
 .initial {
