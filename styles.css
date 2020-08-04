@@ -64,45 +64,30 @@ li {
   float: left;
 }
 
-
-.link {
+.link-menu {
   background-color: var(--Light-Grayish-Blue);
-  display: inline-block;
   width: 46px;
   height: 46px;
   margin-right: 16px;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-}
-
-img {
-  display: block;
-  margin: 13px auto;
+  align-items: center;
 }
 
 .link:link,
 .link:visited {
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
 
 .link:hover,
 .link:active {
+  color: inherit;
   text-decoration: underline;
 }
 
-.link:link {
+.link-menu:link {
   background: var(--Very-Dark-Blue);
-  border-radius: 5px;
-}
-
-.link:visited {
-  color: blue;
-}
-
-.link:hover {
-  background: coral;
-  color: white;
   border-radius: 5px;
 }
 
@@ -219,6 +204,7 @@ img {
 .attribution {
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 100px;
   font-size: 1.2em;
+  color: white;
 }
