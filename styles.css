@@ -207,14 +207,14 @@ li {
   text-align: center;
   position: relative;
   top: 100px;
-  font-size: 1.2em;
+  font-size: .9em;
   color: white;
 }
 
 @media only screen and (max-width:980px) {
   body {
     background-image: url(/images/bg-mobile.png);
-    background-size: 100%;
+    background-size: cover;
   }
 
   .container {
